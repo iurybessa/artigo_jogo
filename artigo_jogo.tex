@@ -1,0 +1,146 @@
+\documentclass[10pt,journal,compsoc]{IEEEtran}
+
+%\hyphenation{op-tical net-works semi-conduc-tor}
+%\usepackage{subcaption}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{xcolor,colortbl}
+\usepackage{hyperref}
+
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsmath}
+
+\newtheorem{mydef}{Definition}
+\newtheorem{mylemma}{Lemma}
+\newtheorem{mytheorem}{Theorem}
+\newtheorem{myremark}{Remark}
+\usepackage{multirow}
+
+\newcommand{\comment}[1]{}
+\newcommand{\commentib}[1]{{\color{blue} [IB: #1]}}
+
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\usepackage[utf8]{inputenc} % Codificação do documento (conversão automática dos acentos) 
+%\usepackage[brazil]{babel}  % Traduz palavras chaves para o PT-BR (ex.: abstract->resumo)
+\usepackage{setspace}		% Possibilita a alteração do espaçamento entre linhas
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % Tabelas: {|C{2cm}|C{5cm}|}
+%\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}} % Tabelas: {|L{2cm}|L{5cm}|}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\begin{document}
+
+\title{A DEFINIR}
+ 
+\author{Rafael...%~\IEEEmembership{Member,~IEEE}%% <-this % stops a space
+\IEEEcompsocitemizethanks{\IEEEcompsocthanksitem R. Mendonça, ... are with Federal University of Amazonas, Brazil.\protect\\
+E-mails: \{arllemfarias@ufam.edu.br, gbralisson, iurybessa@gmail.com
+}
+}
+
+
+% The paper headers
+\markboth{IEEE Transactions on Learning Technologies, July, 2017}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer Society Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+
+% for Computer Society papers, we must declare the abstract and index terms
+% PRIOR to the title within the \IEEEcompsoctitleabstractindextext IEEEtran
+% command as these need to go into the title area created by \maketitle.
+\IEEEcompsoctitleabstractindextext{%
+
+\begin{abstract}
+%\boldmath
+Escrever
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+ Formal methods, model checking, finite word-length effects, controller fragility, robustness.
+\end{IEEEkeywords}}
+
+% make the title area
+\maketitle
+
+\IEEEdisplaynotcompsoctitleabstractindextext
+\IEEEpeerreviewmaketitle
+
+%==================================================================================================
+\section{Introduction}
+\label{sec:intro}
+%==================================================================================================
+
+%==================================================================================================
+\section{Conclusions}
+\label{sec:conc}
+%==================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+%==================================================================================================
+\section*{Acknowledgments}
+
+\newpage
+%----------------------------
+
+%The authors thank the financial support of Amazonas State Research Foundation (FAPEAM), Brazil, the Brazilian National Research Council (CNPq), and  the Research Foundation of the State of Minas Gerais (FAPEMIG), Brazil.
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi 
+
+
+%\bibliographystyle{IEEEtran}
+%\bibliography{refs.bib}
+
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{photoiury.eps}}]{Iury Bessa} received the B.Sc. and the M.Sc. degrees in electrical engineering from the Federal University of Amazonas (UFAM), Brazil, in 2013 and 2015 respectively. He is an assistant professor in the Department of Electricity at the Federal University of Amazonas (UFAM). He is currently pursuing his PhD degree at the Federal University of Minas Gerais (UFMG). His research interests include reconfigurable control, process supervision and control, mobile robotics, and formal verification of cyber-physical systems.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Hussama.eps}}]{Hussama Ibrahim Ismail} holds a B.Sc. degree in Computer Engineering from Foundation Center for Analysis, Research, and Technological Innovation (FUCAPI) in 2013 and a M.Sc. degree in Electrical Engineering from Federal University of Amazonas (UFAM) in 2015. Currently, he is a Systems Analyst at FPF Tech (Paulo Feitoza Foundation), working with software development involving Linux, Shell Script, ANSI-C/C++, Java, and JavaScript since 2011. His current research interests are formal methods, bounded model checking, and embedded systems.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{Photo_Palhares.eps}}]{Reinaldo Martinez Palhares} is currently a professor at the Department of Electronics Engineering, Federal University of Minas Gerais, Brazil. Palhares' main research interests include robust linear/nonlinear control theory, optimization and soft computing. Palhares has been serving as an Associate Editor for IEEE Transactions on Industrial Electronics, Guest Editor of the Journal of The Franklin Institute Special Section on Recent Advances on Control and Diagnosis via Process measurements and Guest Editor of the IEEE/ASME Transactions on Mechatronics Focused Section on Health Monitoring, Management and Control of Complex Mechatronic Systems.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{LucasCordeiro.eps}}]{Lucas Cordeiro} received the Ph.D. degree in computer science from the University of Southampton in 2011. From 2011 to 2016, he was an adjunct professor in the Electronics and Computing Engineering Department at the Federal University of Amazonas. Since 2016, he is a researcher in verification of embedded systems in the Department of Computer Science at the University of Oxford. His current research interests include software verification, model checking, satisfiability modulo theories, and embedded systems.
+%\end{IEEEbiography}
+%
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{JoaoEdgar.eps}}]{Jo\~ao Edgar Chaves Filho} received his Ph.D. degree in Electrical Engineering in 2001 from the Universidade Federal de Campina Grande (UFCG), Para\'iba, Brazil. His M.Sc. was also obtained from UFCG in 1991. Since 1983, he has been a Faculty Member with the Electrical Engineering Department at UFAM. His research interests include new industrial automation proposals, artificial intelligence, control systems, and system identification.
+%\end{IEEEbiography}
+
+
+
+
+\vfill
+
+
+
+%\begin{IEEEbiography}{Michael Shell}
+%Biography text here.
+%\end{IEEEbiography}
+%\begin{IEEEbiography}{Michael Shell}
+%Biography text here.
+%\end{IEEEbiography}
+%\begin{IEEEbiography}{Michael Shell}
+%Biography text here.
+%\end{IEEEbiography}
+%\begin{IEEEbiography}{Michael Shell}
+%Biography text here.
+%\end{IEEEbiography}
+
+\end{document} 
